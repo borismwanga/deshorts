@@ -10,8 +10,8 @@
   "permissions": ["activeTab", "tabs", "storage"],
   "host_permissions": [
     "http://www.youtube.com/",
-    "https://www.youtube.com/",
-    "http://www.google.com/",
+    "https://www.youtube.com/*",
+    "http://www.google.com/*",
     "https://www.google.com/"
   ],
   "background": {
