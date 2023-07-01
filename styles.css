@@ -1,0 +1,11 @@
+body {
+    width: 300px;
+    height: 200px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #url {
+    word-wrap: break-word;
+  }
