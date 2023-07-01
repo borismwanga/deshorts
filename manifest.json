@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "DeShorts",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "scripting", "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
