@@ -16,12 +16,11 @@
     outline: none;
 }
 body {
-    width: 250px;
-    height: 280px;
+    width: 200px;
+    height: 224px;
     font-family: var(--font);
     background: var(--dark-color);
     padding: 10px;
-    text-align: center;
     margin: 0 ;
     color: var(--light-color);
     border: 2px solid var(--light-color);
@@ -60,7 +59,6 @@ body {
     right: 0;
     bottom: 0;
     color: #d7e3e3;
-    font-size: 12px;
     line-height: 1;
     padding: 5px;
 }
@@ -82,7 +80,7 @@ body {
     height: 56px;
     margin: -20px auto 0 auto;
     overflow: hidden;
-    border: 1px solid var(--dark-color);
+    border: 2px solid var(--dark-color);
 }
 
 .button.r, .button.r .layer
@@ -172,7 +170,8 @@ body {
 
 .links{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 a{
@@ -189,3 +188,11 @@ a:hover{
 .lnk::after{
     content: url("images/icons8-arrow-50.png");
 } */
+#version{
+    top: 0;
+    left: 0;
+    font-size: 9px;
+    padding: 0;
+    margin: 0;
+    color: var(--light-color);
+}
