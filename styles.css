@@ -32,25 +32,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
-  
-  #url {
-    word-wrap: break-word;
-  }
 
   /* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
-
-#app-cover
-{
-    display: table;
-    width: 600px;
-    margin: 80px auto;
-    counter-reset: button-counter;
-}
-
-.row
-{
-    display: table-row;
-}
 
 .toggle-button-cover
 {
@@ -69,12 +52,10 @@ body {
     background-color: var(--light-color);
     box-shadow: 0 10px 20px -8px #c5d6d6;
     border-radius: 4px;
-    
 }
 
 .button-cover:before
 {
-    
     position: absolute;
     right: 0;
     bottom: 0;
@@ -102,13 +83,11 @@ body {
     margin: -20px auto 0 auto;
     overflow: hidden;
     border: 1px solid var(--dark-color);
-
 }
 
 .button.r, .button.r .layer
 {
     border-radius: 100px;
-    
 }
 
 .button.b2
@@ -126,14 +105,11 @@ body {
     opacity: 0;
     cursor: pointer;
     z-index: 3;
-    
-    
 }
 
 .knobs
 {
     z-index: 2;
-    
 }
 
 .layer
@@ -142,10 +118,8 @@ body {
     background-color: var(--light-red);
     transition: 0.3s ease all;
     z-index: 1;
-    
 }
-
-/* Button 2 */
+/* Button -> Button 2 */
 #button-2 .knobs:before, #button-2 .knobs:after
 {
     content: 'YES';
@@ -154,7 +128,6 @@ body {
     left: 4px;
     width: 40px;
     height: 30px;
-    font-weight: bold;
     text-align: center;
     line-height: 1;
     padding: 9px 4px;
@@ -162,7 +135,6 @@ body {
     border-radius: 50%;
     transition: 0.3s ease all;
     /* border: 1px solid #f000; */
-
 }
 
 #button-2 .knobs:before
@@ -197,20 +169,7 @@ body {
     background-color: var(--light-green);
 }
 
-#ytd-url {
-  display: block;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  padding: 10px 14px;
-  margin: 20px;
-  color: var(--light-color);
-  font-size: 14px;
-  text-decoration: none;
-  background-color: #143240;
-  border-radius: 4px;
-  box-shadow: 0 10px 20px -5px rgba(20, 50, 64, 0.76);
-}
+
 .links{
     display: flex;
     flex-direction: column;
@@ -225,9 +184,8 @@ a{
 a:hover{
     color: rgb(6, 6, 248);
 }
-.lnk{
-
+/* .lnk{
 }
 .lnk::after{
-    content: "**";
-}
+    content: url("images/icons8-arrow-50.png");
+} */
