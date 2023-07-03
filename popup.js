@@ -22,5 +22,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const version = chrome.runtime.getManifest().version;
     document.getElementById('version').textContent = 'Version: ' + version;
 
+    //
+    /* let checkbox = document.querySelector("#change-color-checkbox");
+    
+    checkbox.addEventListener("change", () => {
+        if (checkbox.checked) {
+            chrome.runtime.sendMessage({type: "change-color"});
+        } else {
+            // Optionally, you could add another message type to change the color back
+            chrome.runtime.sendMessage({type: "reset-color"});
+        }
+    }); */
+
+    
+
 });
 
