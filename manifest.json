@@ -19,6 +19,13 @@
     "http://www.google.com/*",
     "https://www.google.com/"
   ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],  
   "background": {
     "service_worker": "background.js"
   },

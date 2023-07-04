@@ -23,16 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('version').textContent = 'Version: ' + version;
 
     //
-    /* let checkbox = document.querySelector("#change-color-checkbox");
+    document.getElementById("color-toggle").addEventListener("change", function() {
+        chrome.storage.local.set({colorToggle: this.checked});
+      });
     
-    checkbox.addEventListener("change", () => {
-        if (checkbox.checked) {
-            chrome.runtime.sendMessage({type: "change-color"});
-        } else {
-            // Optionally, you could add another message type to change the color back
-            chrome.runtime.sendMessage({type: "reset-color"});
-        }
-    }); */
 
     
 
