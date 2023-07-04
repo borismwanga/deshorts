@@ -1,4 +1,5 @@
-# DeShorts Chrome Extension
+# DeShorts Chrome Extension 
+![Short_to_Regular_Logo-removebg-preview (1)](https://github.com/borismwanga/deshorts/assets/57875197/7bd8ca3a-3f9a-4dfa-8c6f-d68771040560)
 
 DeShorts is a lightweight Chrome extension that automatically converts YouTube Shorts URLs into regular YouTube video URLs. 
 
@@ -19,6 +20,6 @@ DeShorts is a lightweight Chrome extension that automatically converts YouTube S
 
 After installing the extension, click on the DeShorts icon on the Chrome toolbar. A popup will appear with a toggle switch. To start using the DeShorts functionality, simply toggle the switch to the "ON" position.
 
-If you encounter any issues or have any suggestions, feel free to open an issue on this GitHub repository.
+If you encounter any issues or have any suggestions, feel free to open a problem on this GitHub repository.
 
 ![Short_to_Regular_Logo__1___1_-removebg-preview_1_1_48x48](https://github.com/borismwanga/deshorts/assets/57875197/ddffd0b5-3953-4735-ba1d-5151f1a62a1e)
