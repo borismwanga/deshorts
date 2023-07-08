@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "DeShortsn",
   "version": "1.0.0",
-  "description": "Transform YouTube Shorts to standard videos with our Chrome extension. Click the icon to convert URLs and enjoy full YouTube features",
+  "description": "Transform YouTube Shorts to regular videos with our Chrome extension. Click the icon to convert URLs and enjoy full YouTube features",
   "author": "Boris Mwanga",
   "action": {
     "default_popup": "popup.html",
