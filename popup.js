@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const version = chrome.runtime.getManifest().version;
     document.getElementById('version').textContent = 'Version: ' + version;
 
-    //
-    document.getElementById("color-toggle").addEventListener("change", function() {
-        chrome.storage.local.set({colorToggle: this.checked});
-      });
+    // for later
+    // document.getElementById("color-toggle").addEventListener("change", function() {
+    //     chrome.storage.local.set({colorToggle: this.checked});
+    //   });
     
 
     
