@@ -23,3 +23,5 @@ After installing the extension, click on the DeShorts icon on the Chrome toolbar
 If you encounter any issues or have any suggestions, feel free to open a problem on this GitHub repository.
 
 ![Short_to_Regular_Logo__1___1_-removebg-preview_1_1_48x48](https://github.com/borismwanga/deshorts/assets/57875197/ddffd0b5-3953-4735-ba1d-5151f1a62a1e)
+![dsht](https://github.com/borismwanga/deshorts/assets/57875197/5d204aba-2e7f-4484-9170-157c912462a7)
+![dsht1](https://github.com/borismwanga/deshorts/assets/57875197/251f7449-2e83-4388-aa53-037c0d52ae47)
