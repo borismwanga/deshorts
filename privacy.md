@@ -1,6 +1,6 @@
 # Privacy Policy for DeShorts Chrome Extension
 
-Last Updated: [Current Date]
+Last Updated: 1 - 1 - 2025
 
 ## 1. Introduction
 This Privacy Policy explains how DeShorts ("the extension") collects, uses, and protects your information when you use our Chrome extension.
